@@ -1,0 +1,92 @@
+body{
+    background-color: #000;
+    display: flex;
+    min-width: none;
+}
+
+div.perfil{
+    align-items: center;
+    background-color: #707070;
+    border: 0.5vmin solid whitesmoke;
+    border-radius: 1.5vh 1.5vh 0vh 0vh;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 12vmin;
+    min-width: 20vw;
+    padding: 2.5vh;
+    text-align: center;
+    width: 40vh;   
+}
+
+div.laele{
+    align-items: center;
+    background-color: #707070;
+    border: 0.5vh solid whitesmoke;
+    border-radius: 0vh 0vh 1.5vh 1.5vh;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2.5vmin;
+    min-width: 20vw;
+    padding: 2.5vh;
+    text-align: center;
+    width: 40vh;   
+}    
+
+h1{
+    color:whitesmoke;
+    font-size: 5vmin;
+}
+
+p{
+    color: whitesmoke;
+    flex-direction: column;
+    font-size: 3vmin;
+    overflow-x: auto;    
+    padding-left: 1vmin;
+    padding-right: 1vmin;
+}
+
+main{
+    align-items: center;
+    background-color: #252525;
+    background-position: center;
+    background-size: cover;
+    background-image: "gab.jpg";
+    border: 0.5vh solid whitesmoke;
+    border-radius: 1.5vh;
+    margin-top: 12vmin;
+    margin-left: 2.5vmin;
+    margin-right: 12vmin;
+    width: 500vh;
+    padding: 2.5vmin;  
+    text-align: center;  
+}
+
+main h1{
+    font-size: 7vmin;
+}
+
+main img{
+    border: solid 0.5vh whitesmoke;
+    border-radius: 1.5vh;
+    height: 50vh;
+    margin: 2vmin;
+    margin-bottom: 5vmin;
+    margin-top: -2vmin;
+    min-height: 25vw;
+    min-width: 25vw;
+    width: 50vh;
+}
+
+.ftprf{
+    border: solid 0.5vh whitesmoke;
+    height: 15vh;
+    margin-top: -10.5vmin;
+    min-height: 7.5vw;
+    min-width: 7.5vw;
+    width: 15vh;
+}
+
+.aff{
+    color: #252525;
+}

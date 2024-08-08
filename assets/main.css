@@ -1,0 +1,103 @@
+body{
+    background-color: #000;
+    display: flex;
+    min-width: none;
+}
+
+div.perfil{
+    align-items: center;
+    background-color: #707070;
+    border: 0.5vmin solid whitesmoke;
+    border-radius: 1.5vh 1.5vh 0vh 0vh;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 12vmin;
+    min-width: 20vw;
+    padding: 2.5vh;
+    text-align: center;
+    width: 40vh;   
+}
+
+div.laele{
+    align-items: center;
+    background-color: #707070;
+    border: 0.5vh solid whitesmoke;
+    border-radius: 0vh 0vh 1.5vh 1.5vh;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2.5vmin;
+    min-width: 20vw;
+    padding: 2.5vh;
+    text-align: center;
+    width: 40vh;   
+}    
+
+h1{
+    color:whitesmoke;
+    font-size: 5vmin;
+}
+
+p{
+    color: whitesmoke;
+    flex-direction: column;
+    font-size: 3vmin;
+    overflow-x: auto;    
+    padding-left: 1vmin;
+    padding-right: 1vmin;
+}
+
+main{
+    align-items: center;
+    background-position: center;
+    border-radius: 1.5vh;
+    display: flex;    
+}
+
+main div{
+    align-items: center;
+    background-color: #252525;
+    background-position: center;
+    border: 0.5vh solid whitesmoke;
+    border-radius: 1.5vh;
+    height: 60vh;
+    margin-top: 12vh;
+    margin-left: 2.5vh;
+    min-height: 30vw;
+    min-width: 20vw;
+    padding: 3.2vh;  
+    text-align: center;  
+    width: 40vh;
+}
+
+main div img:hover{
+    border: 0.5vh solid gray;
+    transition: 0.2s;
+}
+
+main img{
+    border: solid 0.5vh whitesmoke;
+    border-radius: 1.5vh;
+    height: 35vh;
+    margin: 2vh;
+    min-height: 18.5vw;
+    min-width: 18.5vw;
+    width: 35vh;
+}
+
+.fuck{
+    margin-left: 150vmin;
+    margin-right: 75vmin;
+}
+
+.fuck h1{
+    color: #000;
+}
+
+.ftprf{
+    border: solid 0.5vh whitesmoke;
+    height: 15vh;
+    margin-top: -10.5vmin;
+    min-height: 7.5vw;
+    min-width: 7.5vw;
+    width: 15vh;
+}
